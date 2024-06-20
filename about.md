@@ -1,14 +1,30 @@
 # About Me
 
-Hey! 👋 I'm **Akhand Patel**. I love making servers go brrrrr 💥 and making software less buggy 🐞. During the day, I'm coding away in JavaScript , ensuring things work smoothly. By night, I fight crime 🦸‍♂️ and delve into coding in Go 🐹. Yes, I'm that person who thinks compilers are cool and dreams in code (not really, but that would be cool, wouldn't it? ). I have a masters degree in CSE from IIT Bhubaneswar 🤓.
+Hey! 👋 I'm **Akhand Patel**. I love making servers go brrrrr 💥 and making software less buggy 🐞. During the day, I'm coding away in JavaScript , ensuring things work smoothly. By night, I fight crime 🦸‍♂️ and delve into coding in Go 🐹. I have a masters degree in CSE from IIT Bhubaneswar 🤓.
 
 I'm super curious about how things work under the hood . Sure, I spend a lot of time with JavaScript and building apps that folks enjoy using , but there's so much more I want to learn. Databases 🗃️ and compilers? Like, who even thinks of such stuff?  So, yeah, I've been trying to dabble in that too.
 
-Got a project in mind? I'm always tinkering. Maybe I'll build the next big thing on the internet. Who knows? What I do know is it's going to be mostly fun (maybe a few tears and blood sacrifices), but I'm all for it (this side project is going to be different). If you're into making websites, love backend magic, or just wanna know why tech is cool, you've come to the right spot. It's going to be fun and maybe a bit geeky, but that's the journey. Ready? Let's go! 😜
+Got a project in mind? I'm always tinkering. Maybe I'll build the next big thing on the internet. Who knows? What I do know is it's going to be mostly fun (maybe a few tears and blood sacrifices), but I'm all for it (this side project is going to be different).
 
 
 ## Tools and Technologies
-JavaScript, Go, C/C++, Git, MongoDB, PostgreSQL, Redis, Docker, Node.js, Express.js, AWS, Fastify.js, Electron.js
+<Badge type="tip" text="JavaScript" />
+<Badge type="tip" text="Golang" />
+<Badge type="tip" text="C/C++" />
+<Badge type="tip" text="Git" />
+<Badge type="tip" text="MongoDB" />
+<Badge type="tip" text="PostgreSQL" />
+<Badge type="tip" text="SQLite" />
+<Badge type="tip" text="Redis" />
+<Badge type="tip" text="Docker" />
+<Badge type="tip" text="Node.js" />
+<Badge type="tip" text="Express.js" />
+<Badge type="tip" text="AWS" />
+<Badge type="tip" text="Fastify.js" />
+<Badge type="tip" text="Electron.js" />
+<Badge type="tip" text="HTML" />
+<Badge type="tip" text="CSS" />
+
 
 
 ## Free Time

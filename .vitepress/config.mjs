@@ -4,12 +4,16 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Akhand Patel",
   description: "Backend Engineer, Golang, Javascript",
+  head: [['link', { rel: 'icon', href: '/images/pp_icon.png' }]],
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    logo: '/images/pp_icon.png',
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
-      // { text: 'Projects', link: '/projects' },
+      { text: 'Projects', link: '/projects' },
       // { text: 'Blog', link: '/blogs' }
     ],
 
@@ -22,13 +26,16 @@ export default defineConfig({
       //   text: 'Blog',
       //   link: '/blogs',
       // },
-      // {
-      //   text: 'Projects',
-      //   items: [
-      //     { text: 'Markdown Examples', link: '/markdown-examples' },
-      //     { text: 'Runtime API Examples', link: '/api-examples' }
-      //   ]
-      // }
+      {
+        text: 'Projects',
+        link: '/projects',
+        items: [
+          { text: 'MonkeyLang Interpreter', link: '/projects/interpreter' },
+          { text: 'In-memory key-value store', link: '/projects/redis-server' },
+          { text: 'Chopper (URL Shortner)', link: '/projects/chopper' },
+        ],
+        collapsed: true
+      }
     ],
 
     socialLinks: [
