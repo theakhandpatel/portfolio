@@ -1,8 +1,8 @@
 # 🐵 Monkey Interpreter
 
-![GitHub last commit](https://img.shields.io/github/last-commit/theakhandpatel/redis-server)
+![GitHub last commit](https://img.shields.io/github/last-commit/theakhandpatel/monkeylang-go)
 
-**Repository:** <Badge type="info">  [GitHub <img src="/images/github.svg" alt="GitHub" style="height: 20px; width: 20px; vertical-align: middle; padding-bottom: 3px; display: inline" />](https://github.com/theakhandpatel/redis-server) </Badge>
+**Repository:** <Badge type="info">  [GitHub <img src="/images/github.svg" alt="GitHub" style="height: 20px; width: 20px; vertical-align: middle; padding-bottom: 3px; display: inline" />](https://github.com/theakhandpatel/monkeylang-go) </Badge>
 
 🐵  The Monkey Interpreter is a Go implementation of the Monkey programming language, following the book [Writing An Interpreter In Go](https://interpreterbook.com/). Monkey is a simple and fun language designed for educational purposes.
 
