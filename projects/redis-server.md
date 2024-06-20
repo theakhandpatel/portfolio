@@ -54,4 +54,4 @@ By utilizing Goroutines and locks, the Redis server ensures concurrent execution
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.

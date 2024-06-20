@@ -55,4 +55,4 @@ Go to [API DOCS](https://documenter.getpostman.com/view/9176353/2s9YCAQVGM) 📚
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 📜
+This project is licensed under the MIT License.
