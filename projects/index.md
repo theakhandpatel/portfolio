@@ -7,7 +7,8 @@ next: false
 I try to build things that are fun and useful (possibly) or just something to satisfy my curiosity. There might be more on my GitHub. Here are some of the projects I've worked on (For more details on each project, click on the project name):
 
 <div class="projects-grid">
-  <ProjectCard 
+
+  <ProjectCard
     title="MonkeyLang Interpreter 🐵"
     description="Go implementation of the Monkey programming language Interpreter."
     subtext="Go · Interpreter · Programming Language"
@@ -25,7 +26,7 @@ I try to build things that are fun and useful (possibly) or just something to sa
     repo="https://github.com/theakhandpatel/redis-server"
   />
 
-  <ProjectCard 
+  <ProjectCard
     title="Chopper ✂️"
     description="An URL shortener API in golang."
     subtext="Go · API · URL Shortener"
@@ -35,7 +36,7 @@ I try to build things that are fun and useful (possibly) or just something to sa
     demo="https://chopper-url.herokuapp.com"
   />
 
-  <ProjectCard 
+  <ProjectCard
     title="MovieDB 🎬"
     description="Manage Movie Data with the MovieDB API - Efficient, and Easy! 🍿🌟"
     subtext="API · Movie Database · Data Management"
@@ -44,7 +45,7 @@ I try to build things that are fun and useful (possibly) or just something to sa
     repo="https://github.com/theakhandpatel/MovieDB"
   />
 
-  <ProjectCard 
+  <ProjectCard
     title="Firegram 🖼️"
     description="A React and Firebase-powered web app for seamless cloud-based image storage and organization."
     subtext="React · Firebase · Cloud Storage"
@@ -54,7 +55,7 @@ I try to build things that are fun and useful (possibly) or just something to sa
     demo="https://firegram-gallery.web.app"
   />
 
-  <ProjectCard 
+  <ProjectCard
     title="Word Count 📊"
     description="A Go implementation of the Unix `wc` command, providing detailed statistics about files or input from the standard input (stdin)."
     subtext="Go · Unix · Command-line Tool"
@@ -63,7 +64,7 @@ I try to build things that are fun and useful (possibly) or just something to sa
     repo="https://github.com/theakhandpatel/wcgo"
   />
 
-  <ProjectCard 
+  <ProjectCard
     title="SnippetBox 📝"
     description="A web application that allows users to create and share text snippets with an expiration time."
     subtext="Go · MySQL · HTML · CSS · JavaScript"

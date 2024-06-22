@@ -1,4 +1,5 @@
 <template>
+  <ClientOnly>
   <a :href="link" class="project-card">
     <div class="project-image-container">
       <img v-if="image" :src="image" :alt="title" class="project-image">
@@ -19,6 +20,7 @@
       </div>
     </div>
   </a>
+</ClientOnly>
 </template>
 
 <script>
@@ -35,7 +37,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .project-card {
   display: flex;
   flex-direction: column;
