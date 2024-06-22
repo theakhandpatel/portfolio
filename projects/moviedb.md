@@ -26,3 +26,7 @@ The  **MovieDB API** is a Go-based web service that provides various endpoints f
 
 - **Permission Management** 🔏: Users have specific permission levels (e.g., `movies:read`, `movies:write`) for different operations. Endpoints are protected based on these permissions.
 
+
+## License
+
+This project is licensed under the MIT License 📜.

@@ -25,6 +25,3 @@ Firegram comes with the following features:
 - **Security**: Built on Firebase, Firegram provides secure authentication and data storage.
 
 
-## License
-
-This project is licensed under the MIT License 📜.
