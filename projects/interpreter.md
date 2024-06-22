@@ -1,14 +1,25 @@
-# 🐵 Monkey Interpreter
+# MonkeyLang Interpreter 🐵
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/theakhandpatel/monkeylang-go)
 
 **Repository:** <Badge type="info">  [GitHub <img src="/images/github.svg" alt="GitHub" style="height: 20px; width: 20px; vertical-align: middle; padding-bottom: 3px; display: inline" />](https://github.com/theakhandpatel/monkeylang-go) </Badge>
 
-🐵  The Monkey Interpreter is a Go implementation of the Monkey programming language, following the book [Writing An Interpreter In Go](https://interpreterbook.com/). Monkey is a simple and fun language designed for educational purposes.
 
-**Stack:** <Badge type="tip" text="Golang" />
+**Stack:** <Badge type="tip" text="Golang" /> <Badge type="tip" text="Pratt Parser" />
 
-### 🐒 Monkey-Lang Features
+## Description
+🐵  The MonkeyLang Interpreter is a Go implementation of the Monkey programming language, following the book [Writing An Interpreter In Go](https://interpreterbook.com/). Monkey is a simple and fun language designed for educational purposes.
+
+
+## ✨ Interpreter Features
+
+- Lexer and Parser for Monkey language
+- 🌳 Abstract Syntax Tree (AST) representation
+- Interpreter for evaluating Monkey code
+- 🔄 Interactive REPL (Read-Eval-Print Loop)
+
+
+## 🐒 Monkey-Lang Features
 
 🚀 Monkey supports various features:
 
@@ -21,16 +32,6 @@
 - **String data structure**: Create strings with double quotes and concatenate them with `+`.
 - **Array data structure**: Use square brackets for array literals, e.g., `[1, 2, 3]`.
 - **Hash data structure**: Create hash literals with curly braces, and access values with the index operator.
-
-## ✨ Interpreter Features
-
-- Lexer and Parser for Monkey language
-- 🌳 Abstract Syntax Tree (AST) representation
-- Interpreter for evaluating Monkey code
-- 🔄 Interactive REPL (Read-Eval-Print Loop)
-
-
-## 📜 Language Syntax
 
 In Monkey, the syntax is designed to be simple and easy to read. Here are some examples of Monkey's language features:
 

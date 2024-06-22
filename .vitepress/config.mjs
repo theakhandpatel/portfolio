@@ -30,9 +30,11 @@ export default defineConfig({
         text: 'Projects',
         link: '/projects',
         items: [
-          { text: 'MonkeyLang Interpreter', link: '/projects/interpreter' },
-          { text: 'In-memory key-value store', link: '/projects/redis-server' },
-          { text: 'Chopper (URL Shortner)', link: '/projects/chopper' },
+          { text: 'MonkeyLang Interpreter 🐵', link: '/projects/interpreter' },
+          { text: 'CacheCow 🐄', link: '/projects/redis-server' },
+          { text: 'Chopper ✂️', link: '/projects/chopper' },
+          { text: 'MovieDB 🎬', link: '/projects/moviedb' },
+          { text: 'Firegram 🖼️', link: '/projects/firegram' },
         ],
         collapsed: true
       }

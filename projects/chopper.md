@@ -1,13 +1,14 @@
-# Chopper (URL Shortener) 🚀
+# Chopper ✂️ (URL Shortener)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/theakhandpatel/url_shortner)
 
 **Repository:** <Badge type="info">  [GitHub <img src="/images/github.svg" alt="GitHub" style="height: 20px; width: 20px; vertical-align: middle; padding-bottom: 3px; display: inline" />](https://github.com/theakhandpatel/Chopper) </Badge>
 
+**Stack:** <Badge type="tip" text="Golang" /> <Badge type="tip" text="SQLite" /> <Badge type="tip" text="Chi Router" />
+
+## Description
+
 Chopper is a fast and efficient web application built with Go (Golang) that enables users to shorten long URLs into compact, easy-to-share short URLs. Whether you're sharing links on social media, embedding URLs in emails, or simply trying to manage long and complex URLs, this application provides a convenient solution for creating and expanding short URLs. 🔗
-
-**Stack:** <Badge type="tip" text="Golang" /> <Badge type="tip" text="SQLite" /> <Badge type="tip" text="Chi Router" /> 
-
 
 
 ## Deployed
