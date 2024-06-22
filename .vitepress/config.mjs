@@ -35,6 +35,8 @@ export default defineConfig({
           { text: 'Chopper ✂️', link: '/projects/chopper' },
           { text: 'MovieDB 🎬', link: '/projects/moviedb' },
           { text: 'Firegram 🖼️', link: '/projects/firegram' },
+          { text: 'Word Count📊', link: '/projects/wcgo' },
+          { text: 'SnippetBox 📝',link: '/projects/snippetbox' }
         ],
         collapsed: true
       }

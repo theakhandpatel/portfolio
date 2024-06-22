@@ -3,7 +3,8 @@ import ProjectCard from './components/ProjectCard.vue'
 
 export default {
   ...DefaultTheme,
-  enhanceApp({ app }) {
-    app.component('ProjectCard', ProjectCard)
+  enhanceApp(ctx) {
+    DefaultTheme.enhanceApp(ctx)
+    ctx.app.component('ProjectCard', ProjectCard)
   }
 }
