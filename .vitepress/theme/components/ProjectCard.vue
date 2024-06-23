@@ -1,26 +1,28 @@
 <template>
   <ClientOnly>
-  <a :href="link" class="project-card">
-    <div class="project-image-container">
-      <img v-if="image" :src="image" :alt="title" class="project-image">
-    </div>
-    <div class="project-content">
-      <h3 class="project-title">{{ title }}</h3>
-      <p class="project-description">{{ description }}</p>
-      <p class="project-subtext">{{ subtext }}</p>
-      <div class="project-links">
-        <a v-if="repo" :href="repo" class="link-button" target="_blank" rel="noopener noreferrer" @click.stop>
-          <img src="/images/github.svg" alt="GitHub" class="icon">
-          Repo
-        </a>
-        <a v-if="demo" :href="demo" class="link-button" target="_blank" rel="noopener noreferrer" @click.stop>
-          <img src="/images/link.svg" alt="Demo" class="icon">
-          Demo
-        </a>
+    <a class="project-card">
+      <div class="project-image-container">
+        <img v-if="image" :src="image" :alt="title" class="project-image">
       </div>
-    </div>
-  </a>
-</ClientOnly>
+      <div class="project-content">
+        <h3 :href="link" class="project-title">{{ title }}</h3>
+        <p class="project-description">{{ description }}</p>
+        <p class="project-subtext">{{ subtext }}</p>
+        <div class="project-links">
+          <div class="links-container">
+          <a v-if="repo" :href="repo" class="link-button" target="_blank" rel="noopener noreferrer" @click.stop>
+            <img src="/images/github.svg" alt="GitHub" class="icon">
+            Repo
+          </a>
+          <a v-if="demo" :href="demo" class="link-button" target="_blank" rel="noopener noreferrer" @click.stop>
+            <img src="/images/link.svg" alt="Demo" class="icon">
+            Demo
+          </a>
+        </div>
+      </div>
+      </div>
+    </a>
+  </ClientOnly>
 </template>
 
 <script>
@@ -37,7 +39,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .project-card {
   display: flex;
   flex-direction: column;
@@ -70,31 +72,40 @@ export default {
 }
 
 .project-content {
-  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* This makes the content area flexible */
+  padding: 0px 16px 8px 16px;
 }
 
 .project-title {
   margin-top: 0;
-  margin-bottom: 8px;
   font-size: 1.2em;
   color: var(--vp-c-brand);
+  text-decoration: underline;
 }
 
 .project-description {
   font-size: 0.9em;
   color: var(--vp-c-text-1);
-  margin-bottom: 8px;
+  margin: 0px;
 }
 
 .project-subtext {
   font-size: 0.8em;
   color: var(--vp-c-text-2);
-  margin-bottom: 12px;
+  margin: 0px;
 }
 
 .project-links {
   display: flex;
-  gap: 12px;
+  flex-grow: 1;
+}
+
+.links-container {
+  display: flex;
+  gap: 8px;
+  align-items: end;
 }
 
 .link-button {
