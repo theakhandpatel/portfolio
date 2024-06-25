@@ -1,11 +1,11 @@
 <template>
   <ClientOnly>
-    <a class="project-card">
+    <div class="project-card">
       <div class="project-image-container">
         <img v-if="image" :src="image" :alt="title" class="project-image">
       </div>
       <div class="project-content">
-        <h3 :href="link" class="project-title">{{ title }}</h3>
+        <h3 class="project-title"><a :href="link">{{ title }} </a></h3>
         <p class="project-description">{{ description }}</p>
         <p class="project-subtext">{{ subtext }}</p>
         <div class="project-links">
@@ -21,7 +21,7 @@
         </div>
       </div>
       </div>
-    </a>
+    </div>
   </ClientOnly>
 </template>
 
