@@ -4,7 +4,8 @@ next: false
 ---
 # Projects
 
-I try to build things that are fun and useful (possibly) or just something to satisfy my curiosity. There might be more on my GitHub. Here are some of the projects I've worked on (For more details on each project, click on the project name):
+I try to build things that are fun and useful (possibly) or just something to satisfy my curiosity. There might be more on my [GitHub](https://github.com/theakhandpatel/). Here are some of the projects I've worked on .
+
 
 <div class="projects-grid">
 
