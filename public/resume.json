@@ -1,0 +1,195 @@
+{
+  "updated_at": "2025-06-08 13:16:12",
+  "personal_info": {
+    "name": "Akhand Patel",
+    "email": "theakhandpatel@gmail.com",
+    "website": "https://akhand.cc/",
+    "linkedin": "https://www.linkedin.com/in/theakhandpatel",
+    "github": "https://github.com/theakhandpatel"
+  },
+  "technical_skills": {
+    "languages_environments": "NodeJS, DenoJS, JavaScript, Go/Golang, HTML, CSS, C++, C",
+    "databases": "PostgreSQL, SQLite, MongoDB, Firebase",
+    "developer_tools": "Docker, AWS, Git, GitHub, Linux",
+    "technologies_frameworks": "ExpressJS, Fastify, ElectronJS, ReactJS, VueJS"
+  },
+  "experience": [
+    {
+      "company": "HCLSoftware",
+      "duration": "July 2023 - Present",
+      "title": "Senior Software Engineer II",
+      "location": "Bengaluru, India",
+      "responsibilities": [
+        "Optimized an Electron.js desktop application, achieving 90% faster loading times and 74% quicker data syncing, while enhancing security with end-to-end encryption and automating version rollouts through an integrated auto-update system, significantly improving user experience and operational efficiency.",
+        "Designed and developed a GenAI-enabled, multi-tenant task management platform using Node.js and PostgreSQL, ensuring a cost-effective and scalable architecture with isolated environments.",
+        "Delivered a fully functional on-premises version of the backend API as a self-contained executable, providing customers with a secure ready-to-deploy solution.",
+        "Improved application flexibility by integrating MongoDB(DocumentDB) support alongside Cloudant, enabling enterprise clients to meet AWS compliance requirements while preserving seamless functionality.",
+        "Constructed a dynamic data ingestion pipeline, migrating document based data into an SQL database with automated schema adaptation for evolving data requirements."
+      ]
+    },
+    {
+      "company": "Indian Institute of Technology Bhubaneswar",
+      "duration": "Aug 2021 - May 2023",
+      "title": "Teaching Assistant, Computer Science and Engineering",
+      "location": "Bhubaneswar, India",
+      "responsibilities": [
+        "Guided 300+ students in programming, data structures, and graded problem sets.",
+        "Maintained weekly office hours and doubt-solving sessions for 100+ students."
+      ],
+      "commented_out": true
+    },
+    {
+      "company": "Centre of Science and Technology",
+      "duration": "July 2019 - August 2019",
+      "title": "Technology Intern",
+      "location": "Lucknow, India",
+      "responsibilities": [
+        "Optimized a productivity internal systems' add-on, streamlining the review process to achieve a 20% throughput gain.",
+        "Overhauled more than five user interface screens Bootstrap, and integrated seamlessly with existing APIs."
+      ],
+      "commented_out": true
+    }
+  ],
+  "education": [
+    {
+      "institution": "Indian Institute of Technology, Bhubaneswar",
+      "duration": "Aug 2021 - May 2023",
+      "degree": "M.Tech, Computer Science and Engineering",
+      "gpa": "8.07/10.00"
+    },
+    {
+      "institution": "Babasaheb Bhimrao Ambedkar University, Lucknow",
+      "duration": "September 2016 - August 2020",
+      "degree": "B.Tech, Computer Engineering",
+      "gpa": "7.2/10.00"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Monkey-Lang Interpreter",
+      "github_link": "https://github.com/theakhandpatel/monkeylang-go",
+      "technologies": "Go",
+      "description": [
+        "Developed a complete Monkey language interpreter in Go, supporting various language features.",
+        "Supported built-in functions, first-class and higher-order functions, closures, strings, arrays, and hash data structures.",
+        "Crafted an interactive REPL for users to input and execute Monkey code snippets interactively."
+      ]
+    },
+    {
+      "name": "In-memory Key-Value Database",
+      "github_link": "https://github.com/theakhandpatel/redis-server",
+      "technologies": "Go",
+      "description": [
+        "Developed a concurrent in-memory key-value store in Go language with RESP (Redis Serialization Protocol) support.",
+        "Implemented synchronization mechanisms using locks to prevent race conditions when accessing data storage.",
+        "Supported expiration time for keys, enabling time-based data expiration and automatic key removal."
+      ]
+    },
+    {
+      "name": "File Encryptor",
+      "github_link": "https://github.com/theakhandpatel/file-encryptor",
+      "technologies": "C++",
+      "description": [
+        "Developed a file encryption tool in C++ that supports multiple encryption algorithms for securing files.",
+        "Prompted users for file path, encryption algorithm choice, and encryption key (if required)."
+      ]
+    },
+    {
+      "name": "PurePixels: Local Image Converter",
+      "github_link": "https://github.com/theakhandpatel/ImageConverter",
+      "technologies": "React",
+      "description": [
+        "Developed a browser-based image converter with local processing to ensure privacy, avoiding cloud uploads.",
+        "Supported multiple image formats including PNG, JPEG, WebP, and more, with batch processing capabilities.",
+        "Designed an intuitive drag-and-drop interface using React and Tailwind CSS for seamless user experience."
+      ]
+    },
+    {
+      "name": "Virtual Machine",
+      "github_link": "https://github.com/theakhandpatel/c-virtual-machine",
+      "technologies": "C",
+      "description": [
+        "Developed a stack-based VM in C with a custom instruction set (PSH, POP, ADD, SET, HLT).",
+        "Implemented the VM's core logic, including fetch-decode-execute cycle and program counter management.",
+        "Created stack and register operations for data manipulation and storage within the VM."
+      ],
+      "commented_out": true
+    },
+    {
+      "name": "MovieDB API",
+      "github_link": "https://github.com/theakhandpatel/MovieDB",
+      "technologies": "Go",
+      "description": [
+        "Built a rate-limited Go-based movie data API with authentication, authorization, and PostgreSQL integration.",
+        "Implemented permission-based access control, user registration, authentication, and email-based account activation."
+      ],
+      "commented_out": true
+    },
+    {
+      "name": "Image Storage Service",
+      "github_link": "https://github.com/theakhandpatel/Firebase-gallery",
+      "technologies": "React",
+      "description": [
+        "Programmed highly scalable and low-cost solution to store user photos in the cloud using React and Bootstrap.",
+        "Implemented Authorization and Albums Feature to store images in a systemized manner using Firebase."
+      ],
+      "commented_out": true
+    },
+    {
+      "name": "SnippetBox Web App",
+      "github_link": "https://github.com/theakhandpatel/snippetbox",
+      "technologies": "Go",
+      "description": [
+        "Developed application enabling users to securely create, share, and manage text snippets with expiration times.",
+        "Implemented user authentication, secure session management, and MySQL integration for data storage."
+      ],
+      "commented_out": true
+    },
+    {
+      "name": "FormCraft API",
+      "github_link": "https://github.com/aakankshadhurandhar/FormCraft",
+      "technologies": "Node.js",
+      "description": [
+        "Developed a rate-limited form builder API with customizable seven types of input fields and validation rules.",
+        "Implemented permission-based access control, integrated JWT authentication, and utilized MongoDB and S3."
+      ],
+      "commented_out": true
+    },
+    {
+      "name": "Personal Cloud Storage",
+      "github_link": "https://github.com/theakhandpatel/Gdrive-Clone",
+      "technologies": "React",
+      "description": [
+        "Formalized Directory-Based Storage and Authorisation using G-Auth to facilitate faster login.",
+        "Engineered using ReactJS, BootStrap on frontend and Firebase as backend."
+      ],
+      "commented_out": true
+    },
+    {
+      "name": "Cryptocurrency Price Tracker Extension",
+      "github_link": "https://github.com/theakhandpatel/BUY_THE_DIP",
+      "technologies": "React, Chrome",
+      "description": [
+        "Developed a Chrome extension that allows users to set price alerts for specific cryptocurrencies.",
+        "Implemented features like multi-crypto support, various currencies, and simultaneous tracking of multiple coins."
+      ],
+      "commented_out": true
+    },
+    {
+      "name": "COAP Results Upload Tracker",
+      "github_link": "https://github.com/theakhandpatel/COAP_RESULTS_UPLOAD_TRACKER",
+      "technologies": "Node.js",
+      "description": [
+        "Automated email notifications to alert users when new counselling round results were posted on coap.iitd.ac.in.",
+        "Discovered lack of server-side validation, enabling early result access via manual API calls from the browser console.",
+        "Integrated SendGrid Mail Service for fast and reliable email notifications, ensuring timely updates for users."
+      ],
+      "commented_out": true
+    }
+  ],
+  "achievements_extracurricular": [
+    "Student Placement Coordinator, M.Tech C.S.E., IIT Bhubaneshwar, 2022-2023",
+    "Solved more than 400 problems on various platforms like LeetCode, GFG and others.",
+    "Qualified GATE twice with recent rank 1089 with a percentile greater than 98%."
+  ]
+}
